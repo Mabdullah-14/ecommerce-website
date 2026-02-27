@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section id="header">
+      <a href="#"><img src="./img/logo.png" alt="logo img" /></a>
+
+      <div>
+        <ul id="navbar">
+          <a href="#" id="close"><i class="fa fa-times"></i></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a id="lg-bag" href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+          
+        </ul>
+      </div>
+      <div id="mobile">
+      <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+       <i id="bar" class="fa fa-flag"></i>
+      </div>
+    </section>
+
+  <div class="cart-container">
+    <h1>My Cart</h1>
+    <div class="cart">
+      <div class="cart-items">
+        <div class="cart-item">
+          <img src="./img/f1.jpg" alt="Product Image">
+          <div class="item-details">
+            <h3>Product Name 1</h3>
+            <p>Price: $49.99</p>
+            <div class="quantity">
+              <button class="qty-btn">-</button>
+              <input type="number" value="1" min="1">
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+          <div class="item-total">
+            <p>$49.99</p>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="./img/f6.jpg" alt="Product Image">
+          <div class="item-details">
+            <h3>Product Name 2</h3>
+            <p>Price: $29.99</p>
+            <div class="quantity">
+              <button class="qty-btn">-</button>
+              <input type="number" value="2" min="1">
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+          <div class="item-total">
+            <p>$59.98</p>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Subtotal: <span>$109.97</span></p>
+        <p>Shipping: <span>$5.00</span></p>
+        <p>Total: <span>$114.97</span></p>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
