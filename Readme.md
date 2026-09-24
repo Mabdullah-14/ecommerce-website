@@ -53,10 +53,9 @@ Shopping cart page displaying selected items and total price summary.
 - JavaScript
 
 ---
-
-<img width="1890" height="875" alt="Screenshot 2026-03-04 175850" src="https://github.com/user-attachments/assets/68b8f9a9-7127-474d-8b60-862352ac1d29" />
+<img width="1890" height="875" alt="Screenshot 2026-03-04 175850" src="https://github.com/user-attachments/assets/3fff0d8d-c8c2-4618-a0a0-af6b9719cd28" />
 
 <img width="1892" height="872" alt="Screenshot 2026-03-04 175908" src="https://github.com/user-attachments/assets/1274180c-af76-44bd-b90d-01cf97690b3c" />
-<img width="1890" height="875" alt="Screenshot 2026-03-04 175850" src="https://github.com/user-attachments/assets/3fff0d8d-c8c2-4618-a0a0-af6b9719cd28" />
+
 <img width="1884" height="874" alt="Screenshot 2026-03-04 175248" src="https://github.com/user-attachments/assets/73059a23-a104-4574-afa3-d4109f3aee46" />
 
